@@ -1,0 +1,11 @@
+﻿@model IEnumerable<K19_K32_Cap6_CamadaDeApresentacao.Models.Post>
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista</h2>
+
+@foreach (var post in Model)
+{
+    @Html.Partial("_Post", post)
+}

@@ -1,0 +1,30 @@
+﻿@model ICollection<K19_K32_Cap6_CamadaDeApresentacao.Models.Aluno>
+
+@{
+    ViewBag.Title = "Lista";
+    Layout = "~/Views/Shared/K19Layout.cshtml"; 
+}
+
+@section Toolbar {
+    <input type="search" placeholder="Digite o nome do aluno" />
+    <input type="button" value="Buscar" />
+}
+
+<h2>Tabela de Alunos</h2>
+
+<table>
+    <tr>
+        <th>AlunoID</th>
+        <th>Nome</th>
+        <th>Email</th>
+    </tr>
+
+    @foreach (var a in @Model)
+    {
+        <tr>
+            <td>@a.AlunoID</td>
+            <td>@a.Nome</td>
+            <td>@a.Email</td>
+        </tr>
+    }
+</table>

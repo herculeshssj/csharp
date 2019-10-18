@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K19_CopaDoMundo", "K19_CopaDoMundo\K19_CopaDoMundo.csproj", "{448A471B-88AA-48F9-94AE-B948DBBF3CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K19_CopaDoMundo.Tests", "K19_CopaDoMundo.Tests\K19_CopaDoMundo.Tests.csproj", "{D286A186-D4DB-4152-B4FD-E4C99DCD822E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{448A471B-88AA-48F9-94AE-B948DBBF3CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448A471B-88AA-48F9-94AE-B948DBBF3CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448A471B-88AA-48F9-94AE-B948DBBF3CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448A471B-88AA-48F9-94AE-B948DBBF3CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D286A186-D4DB-4152-B4FD-E4C99DCD822E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D286A186-D4DB-4152-B4FD-E4C99DCD822E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D286A186-D4DB-4152-B4FD-E4C99DCD822E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D286A186-D4DB-4152-B4FD-E4C99DCD822E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

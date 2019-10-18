@@ -1,0 +1,17 @@
+﻿@model K19_K32_Cap6_CamadaDeApresentacao.Models.Aluno
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+@section Toolbar {
+    <input type="button" value="Remover este cadastro" />
+}
+<h2>Editar</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <br/>
+    <input type="submit" value="Salvar" />
+}

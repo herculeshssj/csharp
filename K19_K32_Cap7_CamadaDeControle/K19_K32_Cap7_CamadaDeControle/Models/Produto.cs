@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace K19_K32_Cap7_CamadaDeControle.Models
+{
+    public class Produto
+    {
+        [HiddenInput(DisplayValue=false)]
+        public int ProdutoID { get; set; }
+
+        [Display(Name="Nome do Produto")]
+        public string Nome { get; set; }
+
+        [DataType(DataType.MultilineText)]
+        [Display(Name="Descrição do Produto")]
+        public string Descricao { get; set; }
+
+        [Display(Name="Preço do Produto")]
+        public double Preco { get; set; }
+    }
+}

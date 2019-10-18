@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K19_K32_Cap2_ODBC", "K19_K32_Cap2_ODBC\K19_K32_Cap2_ODBC.csproj", "{5D478E47-3C75-4E9F-89CD-7CF4264E4828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D478E47-3C75-4E9F-89CD-7CF4264E4828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D478E47-3C75-4E9F-89CD-7CF4264E4828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D478E47-3C75-4E9F-89CD-7CF4264E4828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D478E47-3C75-4E9F-89CD-7CF4264E4828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
